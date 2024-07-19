@@ -1,0 +1,1 @@
+powershell -WindowStyle Hidden .\Resource\Installer.ps1
