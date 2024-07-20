@@ -15,7 +15,7 @@ $form.FormBorderStyle = "FixedSingle"   # ウィンドウスタイル指定
 $form.Opacity = 1
 
 # アイコン設定
-# $form.Icon = $PSScriptRoot+"C:\Pictures\TAKE.ico"
+$form.Icon = $PSScriptRoot+"\ng_icon.png"
 # 背景画像設定
 $imagePath = $PSScriptRoot + "\background.png"
 $form.BackgroundImage = [system.drawing.image]::FromFile($imagePath)
