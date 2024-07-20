@@ -7,7 +7,8 @@ $form = New-Object System.Windows.Forms.Form
 $form.Size = New-Object System.Drawing.Size(700,500)
 # フォームの表示場所設定
 $form.StartPosition = "CenterScreen"
-$form.Text = "凪咲ほのか セットアップ"
+$version = "0.1.0"
+$form.Text = "凪咲ほのか セットアップ Ver "+$version
 $form.MaximizeBox = $False  # 最大化ボタン非表示
 $form.MinimizeBox = $False  # 最少化ボタン非表示
 $form.FormBorderStyle = "FixedSingle"   # ウィンドウスタイル指定
