@@ -1,1 +1,1 @@
-powershell -WindowStyle Hidden .\Resource\Installer.ps1
+powershell -ExecutionPolicy Unrestricted -WindowStyle Hidden .\Resource\Installer.ps1
